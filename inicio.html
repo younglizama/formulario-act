@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        label{
+            display: block;
+            float: left;
+            width: 100px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <form action="" id="formulario">
+
+        <div>
+            <h1></h1>
+            <label for="rut">Rut</label>
+            <input type="text" id="rut" required>
+          </div>
+    
+  
+          <div>
+            <h1></h1>
+              <label for="nombre">Nombre</label>
+              <input type="text" id="Nombre" required>
+          </div>
+  
+          <div>
+            <h1></h1>
+              <label for="apellido_paterno">Apellido paterno</label>
+              <input type="text" id="apellido_paterno" required>
+          </div>
+  
+     
+       
+          <div>
+            <h1></h1>
+              <label for="apellido_materno">Apellido materno</label>
+              <input type="text" id="apellido_materno" required>
+          </div>  
+  
+          <div>
+            <h1></h1>
+              <label for="fecha_nacimiento">Fecha de nacimiento</label>
+              <input type="date" id="fecha_nacimiento" required>
+          </div>
+  
+          <div>
+            <h1></h1>
+              <label for="edad">Edad</label>
+              <input type="number" id="edad"required>
+          </div>
+  
+          <div>
+            <H1></H1>
+            <label for="Genero">Genero</label>
+            <select id="genero"required>
+              <option>-----</option>
+              <option>Masculino</option>
+              <option>Femenino</option>
+              <option>Prefiero no decirlo</option>
+            </select>
+          </div>
+  
+          <div>
+            <h1></h1>
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+          </div>
+  
+          <div>
+            <h1></h1>
+              <label for="celular">Celular</label>
+              <input type="text" id="celular" required>
+          </div>
+  
+          <div>
+            <h1></h1>
+              <label for="profesion">Profesion</label>
+              <input type="text" id="profesion"required>
+          </div>
+          
+          <div>
+            <h1></h1>
+            <label for="comentario">Motivacion para trabajo</label>
+            <textarea id="comentario" rows="5" required></textarea>
+          </div>
+  
+  
+          <input type="submit" value = 'Crear Carta'>
+          <input type="submit" value = 'enviar'>
+        </form>
+
+ <script src="app.js"></script>   
+</body>
+</html>
